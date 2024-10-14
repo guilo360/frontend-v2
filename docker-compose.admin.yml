@@ -1,0 +1,6 @@
+services: 
+  webapp: 
+  build: .
+  environment: 
+    - DEBUG=1
+

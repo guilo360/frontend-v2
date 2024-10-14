@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roulette and Dice</title>
+</head>
+<body>
+    <!-- Page title goes here, as well as project info-->
+  <div style="display:flex;justify-content:center;align-items: center;">
+    <h1>Kain and Andrew's Casino - with blackjack and hookers!</h1>
+</div>
+<div style="display:flex;justify-content:center;align-items: center;">
+  <b1>Please Note: This is an unsafe project with insecure blockchain rng. Do not use it for real!!! This implimentation is also currently incomplete and doesnt work properly, but serves as a proof of concept</b1>
+</div>
+    <div style="display:flex;justify-content:center;align-items: center;">
+        <h2>You rolled: </h2>
+        <div style="width: 200px; height: 30px; text-align: center;" id="result"></div>
+    </div>
+    <div style="display:flex;justify-content: center;align-items: center;">
+        <div>
+            <div id="roulette-image"></div>
+            <form id="roulette-form">
+                <div class="form-group">
+                    <label for="selected-number">Enter a number (0-36):</label>
+                    <input type="number" id="selected-number" name="selected-number" min="0" max="36" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="bet-amount">Bet Amount:</label>
+                    <input type="number" id="bet-amount" name="bet-amount" min="1" required>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" id="place-bet">Place Bet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div style="display:flex;justify-content:center;align-items: center; margin-top: 20px;">
+        <h2>Dice Rolls: </h2>
+        <div style="width: 100px; height: 30px; text-align: center; margin-left: 10px;" id="dice1"></div>
+        <div style="width: 100px; height: 30px; text-align: center; margin-left: 10px;" id="dice2"></div>
+    </div>
+    <div style="display:flex;justify-content:center;align-items:center;margin-top:20px;">
+      <label for="dice-choice">Select Odd or Even:</label>
+      <input type="radio" id="odd" name="dice-choice" value="odd" style="margin-left:10px;">
+      <label for="odd">Odd</label>
+      <input type="radio" id="even" name="dice-choice" value="even" style="margin-left:10px;">
+      <label for="even">Even</label>
+  </div>
+
+
+    <div style="display:flex;justify-content: center;align-items: center; margin-top: 20px;">
+        <button id="start-dice" style="margin:auto;display:block;">Roll Dice</button>
+    </div>
+</body>
+</html>

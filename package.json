@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@theblindhawk/roulette": "^3.1.1",
+    "express": "^4.21.1",
+    "roulette-spinner": "^4.0.0",
+    "serve": "^14.2.3",
+    "web3": "^4.13.0"
+  }
+}
