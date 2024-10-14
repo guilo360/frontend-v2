@@ -1,32 +1,17 @@
 ### Kain and Andrew's Assignment
+This is v2 because version 1 relied on a bunch of stupid dependencies. This is just html and js because \n
 
+Less is more
 
-Front-end based on TheBlindHawk/Roulette - I couln't have put together the Javascript.
-
-Work to do:
-
-  use the web3 framework to call contracts on the smart chain
-  we have an asynchronous roll function that just needs some help. From what I understand we just need to load in the CasinoInterface ABI, and then web3 will be able to
-
-    1) call the contract
-    2) return JSON containing that value
-
-TODO
-finish Cho Han logic - can only roll when you have selected an odd or even bet
-
-parametrise idex.html - Im sure I can move the javascript into a different folder
-
-Tidy up in general - I am not using much of the initial example I copied from - I'm sure I dont need its source either and can just use npm install.
-
-Figure out why the linebreaks in this document arent getting sent to github
-
+## Todo
+sort out nested if-else in roulette.js and replace with a switch statement to validate input - low priority
 
 ## DEBUG TOOLS
 
-to get developing;
+to get developing locally
 
-git clone;
+git clone <repo here>;
 
 npm install (takes a wee while)
 
-npm run dev
+npx serve (defaults to 3000
