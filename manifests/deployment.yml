@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: guilofrontendv 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: guilofrontendv
+  template:
+    metadata:
+      labels:
+        app: guilofrontendv 
+    spec:
+      containers:
+        - name: guilofrontendv 
+          image: assignacr.azurecr.io/guilofrontendv
+          ports:
+          - containerPort: 80
